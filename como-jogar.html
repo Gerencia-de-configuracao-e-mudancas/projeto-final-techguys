@@ -3,14 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <title>Como Jogar</title>
-
-  <!-- CSS da página -->
   <link rel="stylesheet" href="public/style/pages/como-jogar.css">
+  <link rel="stylesheet" href="public/style/layout/header.css">
+  <link rel="stylesheet" href="public/style/layout/footer.css">
+  <link rel="stylesheet" href="public/style/base/generic.css">
 </head>
 <body>
 
-  <h1>Como Jogar</h1>
-  <p>Explique aqui como o jogo funciona.</p>
+  <header>
+        <div class="logo">
+            <h1>Xadrez</h1>
+        </div>
 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="como-jogar.html">Como Jogar</a></li>
+                <li><a href="historia.html">História</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="como-jogar-container">
+        <h1>Como Jogar – Explicação das Peças</h1>
+
+        <div class="peca">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chess_plt60.png" alt="Peão">
+            <div class="peca-info">
+            <h3>Peão</h3>
+            <p>O peão move-se sempre para frente uma casa de cada vez, e no seu primeiro movimento pode avançar duas casas. Ele captura peças na diagonal. :contentReference[oaicite:0]{index=0}</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Chess_rlt60.png" alt="Torre">
+            <div class="peca-info">
+            <h3>Torre</h3>
+            <p>A torre pode mover-se qualquer número de casas em linha reta, tanto na horizontal quanto na vertical. :contentReference[oaicite:1]{index=1}</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Chess_blt60.png" alt="Bispo">
+            <div class="peca-info">
+            <h3>Bispo</h3>
+            <p>O bispo move-se ao longo das diagonais, quantas casas quiser, mas sempre na mesma cor de casa em que começou. :contentReference[oaicite:2]{index=2}</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/28/Chess_nlt60.png" alt="Cavalo">
+            <div class="peca-info">
+            <h3>Cavalo</h3>
+            <p>O cavalo movimenta-se em formato de “L”: duas casas numa direção e depois uma perpendicular. É a única peça que pode pular sobre outras peças. :contentReference[oaicite:3]{index=3}</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Chess_qlt60.png" alt="Rainha">
+            <div class="peca-info">
+            <h3>Rainha</h3>
+            <p>A rainha é a peça mais poderosa: ela combina o movimento da torre e do bispo — pode mover-se em linha reta ou diagonal qualquer número de casas. :contentReference[oaicite:4]{index=4}</p>
+            </div>
+        </div>
+
+        <div class="peca">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Chess_klt60.png" alt="Rei">
+            <div class="peca-info">
+            <h3>Rei</h3>
+            <p>O rei move-se uma casa em qualquer direção (vertical, horizontal ou diagonal). O objetivo do jogo é dar xeque‑mate ao rei adversário. :contentReference[oaicite:5]{index=5}</p>
+            </div>
+        </div>
+
+        <div class="como-vencer"> 
+            <h2>Como Vencer</h2> 
+            <p>O objetivo do xadrez é dar <strong>xeque-mate</strong> no rei adversário, ou seja, colocá-lo sob ataque de tal forma que ele não consiga escapar. Também é possível vencer por desistência do oponente ou aproveitar erros estratégicos.</p>
+            <a href="https://www.chess.com/" target="_blank" class="btn-jogar">Comece a Jogar</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Projeto acadêmico • Xadrez • 2026</p>
+    </footer>
 </body>
 </html>
