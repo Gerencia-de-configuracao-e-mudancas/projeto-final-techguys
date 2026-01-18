@@ -34,6 +34,7 @@ body {
 
 .btn-primaria:hover {
     background-color: var(--cor-secundaria);
+    color: var(--texto-secundario);
 }
 
 .titulo-principal {
