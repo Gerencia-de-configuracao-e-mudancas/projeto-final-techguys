@@ -1,0 +1,57 @@
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #e0e0e0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-links a {
+    margin: 0 10px;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: var(--cor-card);
+    text-align: center;
+}
+
+.pages {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+    flex-wrap: wrap;
+}
+
+.pages article {
+    width: 250px;
+    text-align: center;
+}
+
+.pages article h4 {
+    margin-bottom: 15px;
+}
+
+.pages article p {
+    margin-bottom: 20px;
+}
+
+.pages article a {
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.pages article a:hover {
+    color: var(--cor-secundaria);
+}
