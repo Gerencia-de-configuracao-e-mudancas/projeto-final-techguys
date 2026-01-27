@@ -55,3 +55,9 @@
 .pages article a:not(.btn):hover {
     color: var(--cor-secundaria);
 }
+
+@media(max-width: 478px) {
+    .hero-links a:not(:first-child) {
+        margin-top: 30px;
+    }
+}
