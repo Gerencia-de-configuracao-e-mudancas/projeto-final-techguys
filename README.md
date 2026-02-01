@@ -34,6 +34,23 @@ As seguintes tecnologias e ferramentas foram utilizadas no desenvolvimento do pr
 
 ---
 
+## ▶️ Como Executar o Projeto
+Este projeto é uma aplicação web estática e não requer instalação de dependências.
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/Gerencia-de-configuracao-e-mudancas/projeto-final-techguys.git
+   ```
+
+2. Acesse a pasta do projeto:
+   ```bash
+   cd projeto-final-techguys
+   ```
+
+3. Abra o arquivo `index.html` no navegador ou utilize uma extensão como **Live Server** no VS Code.
+
+---
+
 ## 🔗 Links e Informações Úteis
 - Repositório do projeto:  
   https://github.com/Gerencia-de-configuracao-e-mudancas/projeto-final-techguys
