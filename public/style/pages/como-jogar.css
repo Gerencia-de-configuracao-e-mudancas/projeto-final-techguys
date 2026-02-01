@@ -1,6 +1,7 @@
 .como-jogar-container {
     max-width: 900px;
     margin: 40px auto;
+    margin-top: 80px !important;
     padding: 20px;
     background-color: #fafafa;
     border-radius: 10px;
