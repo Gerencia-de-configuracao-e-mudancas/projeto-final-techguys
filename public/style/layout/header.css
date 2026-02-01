@@ -30,3 +30,68 @@ header nav ul li a {
 header nav ul li a:hover {
     color: #f0a500;
 }
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100vh;
+        width: 80%;
+        max-width: 320px;
+        background-color: #333;
+        transform: translateX(100%);
+        transition: transform 0.32s ease-in-out;
+        z-index: 1000;
+        padding-top: calc(20px + 2rem + 8px);
+        box-shadow: -4px 0 12px rgba(0, 0, 0, 0.25);
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        padding: 20px;
+    }
+
+    header nav ul li {
+        width: 100%;
+    }
+
+    header nav ul li a {
+        display: block;
+        width: 100%;
+        padding: 8px 4px;
+    }
+
+    #menu-toggle:checked ~ nav {
+        transform: translateX(0);
+    }
+}
+
+.menu-toggle {
+    z-index: 1100;
+    position: relative;
+}
