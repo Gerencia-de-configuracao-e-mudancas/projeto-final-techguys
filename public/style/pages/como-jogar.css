@@ -23,9 +23,10 @@
     margin-bottom: 30px;
     border-bottom: 1px dashed #ccc;
     padding-bottom: 20px;
+	flex-wrap: wrap;
 }
 
-.peca img {
+.peca img:first-of-type {
     width: 80px;
     height: 80px;
     object-fit: contain;
@@ -79,6 +80,16 @@
 
 .btn-jogar:hover {
     background-color: #1b5f91;
+}
+
+[class*="contentReference"], [contentreference], [oaicite], span:has-text("contentReference") {
+	display: none !important;
+}
+
+.movimentos {
+	margin: auto;
+	height: 40%;
+	width: 40%;
 }
 
 @media (max-width: 900px) {
