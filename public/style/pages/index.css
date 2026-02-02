@@ -1,12 +1,20 @@
 .hero {
     text-align: center;
-    padding: 80px 20px;
-    background-color: #e0e0e0;
+    padding: 100px 20px;
+    margin-top: 80px;
+    background-image: url(../../img/chess-set.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
+.hero h2 {
+    color: white;
+}
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 30px;
+    color: white;
 }
 
 .hero-links {
@@ -54,4 +62,10 @@
 
 .pages article a:not(.btn):hover {
     color: var(--cor-secundaria);
+}
+
+@media(max-width: 478px) {
+    .hero-links a:not(:first-child) {
+        margin-top: 30px;
+    }
 }

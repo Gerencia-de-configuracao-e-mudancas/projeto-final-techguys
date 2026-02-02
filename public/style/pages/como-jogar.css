@@ -1,6 +1,7 @@
 .como-jogar-container {
     max-width: 900px;
     margin: 40px auto;
+    margin-top: 80px !important;
     padding: 20px;
     background-color: #fafafa;
     border-radius: 10px;
@@ -78,4 +79,52 @@
 
 .btn-jogar:hover {
     background-color: #1b5f91;
+}
+
+@media (max-width: 900px) {
+    .como-jogar-container {
+        margin: 24px 16px;
+        padding: 18px;
+    }
+
+    .como-jogar-container h1 {
+        font-size: 2.2rem;
+    }
+
+    .peca img {
+        width: 72px;
+        height: 72px;
+    }
+}
+
+@media (max-width: 680px) {
+    .peca {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .peca-info h3 {
+        font-size: 1.4rem;
+    }
+
+    .peca-info p {
+        font-size: 1rem;
+    }
+
+    .btn-jogar {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .como-jogar-container h1 {
+        font-size: 1.6rem;
+    }
+
+    .peca img {
+        width: 56px;
+        height: 56px;
+    }
 }
